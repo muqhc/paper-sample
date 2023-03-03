@@ -1,4 +1,4 @@
-rootProject.name = "skygui"
+rootProject.name = "paper-plugin"
 
 val main = "${rootProject.name}-main"
 val debug = "${rootProject.name}-debug"
