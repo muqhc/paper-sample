@@ -1,0 +1,12 @@
+name: ${pluginName}Plugin
+version: ${version}
+main: ${group}.plugin.${pluginName}Plugin
+description:
+author:
+api-version: ${apiVersion}
+load: STARTUP
+bootstrapper: ${group}.plugin.${pluginName}PluginBootstrap
+loader: ${group}.plugin.${pluginName}PluginLoader
+defaultPerm: FALSE
+permissions:
+dependencies:
